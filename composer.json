@@ -1,0 +1,16 @@
+{
+    "name": "lifestyledesign/cakephp2_aws_s3_data-source",
+    "type": "cakephp-plugin",
+    "description": "CakePHP Plugin",
+    "homepage": "https://github.com/lifestyledesign/Cakephp2_AWS_S3_DataSource",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "tech@fabric-tokyo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    }
+}
