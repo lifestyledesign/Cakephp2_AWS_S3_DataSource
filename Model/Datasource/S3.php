@@ -144,7 +144,7 @@ class S3 extends DataSource {
 					'Key' => $dstFilePath,
 					'ACL' => CannedAcl::PUBLIC_READ,
 				));
-		} catch (Exception $e) {
+		} catch (Exception $exc) {
 			CakeLog::error('AWS S3 [copyObject]: ' . $exc->getMessage());
 			return false;
 		}
